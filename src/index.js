@@ -1,6 +1,7 @@
 const body = document.querySelector("body");
 const colors = ["#87ceeb", "#800080", "#ffff00"];
 
+
 function changeColor() {
   body.classList.remove("originbg");
   if (window.innerWidth <= 600) {
@@ -13,3 +14,4 @@ function changeColor() {
 }
 
 window.addEventListener("resize", changeColor);
+
